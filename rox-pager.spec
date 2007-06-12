@@ -4,7 +4,7 @@
 %define fname pager-%cvs
 Name:		rox-pager
 Version:	%version
-Release:	%mkrel 0.%cvs.4
+Release:	%mkrel 0.%cvs.5
 Summary:	Pager for the panel of the ROX-Filer
 Group:		Graphical desktop/Other
 License:	GPL
