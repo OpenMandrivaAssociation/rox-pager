@@ -13,6 +13,7 @@ Source0:	http://prdownloads.sourceforge.net/rox/%fname.tar.bz2
 Requires:       rox
 BuildRequires: libwnck-devel
 BuildRequires: libxml2-devel
+Buildroot: %_tmppath/%name-%version
 
 %description
 The pager is a panel applet that shows a miniature view of your
