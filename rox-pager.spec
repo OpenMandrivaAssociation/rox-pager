@@ -58,3 +58,51 @@ rm -rf %buildroot%_appsdir/%oname/./src
 rm -rf %buildroot
 
 
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 1.0.2-0.20050604.6mdv2010.0
++ Revision: 433425
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 1.0.2-0.20050604.5mdv2008.1
++ Revision: 140747
+- restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Tue Jun 12 2007 GÃ¶tz Waschk <waschk@mandriva.org> 1.0.2-0.20050604.5mdv2008.0
++ Revision: 38209
+- rebuild
+
+
+* Fri Nov 03 2006 GÃ¶tz Waschk <waschk@mandriva.org> 1.0.2-0.20050604.4mdv2007.0
++ Revision: 76206
+- Import rox-pager
+
+* Fri Nov 03 2006 Götz Waschk <waschk@mandriva.org> 1.0.2-0.20050604.4mdv2007.1
+- mkrel
+
+* Thu Oct 13 2005 Götz Waschk <waschk@mandriva.org> 1.0.2-0.20050604.3mdk
+- rebuild for new libwnck
+
+* Fri Sep 02 2005 Götz Waschk <waschk@mandriva.org> 1.0.2-0.20050604.2mdk
+- rebuild to remove glitz dep
+
+* Tue Aug 23 2005 Götz Waschk <waschk@mandriva.org> 1.0.2-0.20050604.1mdk
+- update to cvs snapshot
+
+* Fri Feb 04 2005 Götz Waschk <waschk@linux-mandrake.com> 1.0.1-1mdk
+- update file list
+- New release 1.0.1
+
+* Mon Jan 12 2004 Götz Waschk <waschk@linux-mandrake.com> 1.0.0-3mdk
+- fix buildrequires
+
+* Mon Jan 12 2004 Götz Waschk <waschk@linux-mandrake.com> 1.0.0-2mdk
+- fix description, thanks to Markus Überall
+
+* Mon Jan 12 2004 Götz Waschk <waschk@linux-mandrake.com> 1.0.0-1mdk
+- initial package
+
