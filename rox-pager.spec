@@ -8,7 +8,7 @@ Release:	%mkrel 0.%cvs.6
 Summary:	Pager for the panel of the ROX-Filer
 Group:		Graphical desktop/Other
 License:	GPL
-URL:		http://rox.sourceforge.net/phpwiki/index.php/Pager
+URL:		https://rox.sourceforge.net/phpwiki/index.php/Pager
 Source0:	http://prdownloads.sourceforge.net/rox/%fname.tar.bz2
 Requires:       rox
 BuildRequires: libwnck-devel
